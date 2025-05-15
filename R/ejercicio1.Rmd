@@ -1,0 +1,50 @@
+---
+title: "Clase"
+author: "Paco Quintana"
+date: "2025-05-14"
+output: html_document
+---
+
+# Esto es un ejemplo para la clase
+
+Esto es texto y vamos a describir lo que estamos haciendo
+
+```{r}
+a <- 2
+b <- 3
+c <- a+b
+```
+
+## Grafico
+
+Quiero hace gráfico
+
+```{r}
+x <- rnorm(1000,mean=100, sd=10)
+plot(x)
+```
+
+``` R
+a + b
+plot(x)
+```
+
+***Esto es el texto***
+
+`a->2`
+
+`b->3`
+
+`c->a+b`
+
+1.  uno
+
+2.  dos
+
+link a [google](www.google.com)
+
+| Col1 | Col2  | Col3 |
+|------|-------|------|
+| a    | 2     |      |
+| b    | 3     |      |
+| c    | a + b |      |
